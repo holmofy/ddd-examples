@@ -7,7 +7,7 @@
     <groupId>cn.hff.ddd</groupId>
     <artifactId>ddd-examples</artifactId>
     <version>${revision}</version>
-    <name>ddd-examples</name>
+    <name>${project.artifactId}</name>
     <packaging>pom</packaging>
 
     <properties>

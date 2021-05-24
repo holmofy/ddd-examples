@@ -3,8 +3,11 @@ package cn.hff.ddd.ordercontext.service;
 import cn.hff.ddd.ordercontext.model.CustomerOrder;
 import cn.hff.ddd.ordercontext.repository.CustomerOrderRepository;
 
+import javax.annotation.Resource;
+
 public class CustomerOrderService implements OrderService {
 
+    @Resource
     private CustomerOrderRepository orderRepository;
 
     @Override
